@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="214.0" prefWidth="474.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.groupproject.Profile">
+   <children>
+      <Label fx:id="titleLabel" layoutX="150.0" layoutY="29.0" text="Manage Profile">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="logoutButton" layoutX="177.0" layoutY="119.0" mnemonicParsing="false" onAction="#Dashboard" text="Log Out">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

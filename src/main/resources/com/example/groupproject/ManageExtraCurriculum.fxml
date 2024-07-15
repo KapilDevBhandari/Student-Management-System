@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="370.0" prefWidth="721.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.groupproject.ManageExtraCurriculum">
+   <children>
+      <Label fx:id="dashboardTitleLabel" layoutX="219.0" layoutY="16.0" text="Manage extra curriculum">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TableView fx:id="activityTableView" layoutX="138.0" layoutY="98.0" prefHeight="202.0" prefWidth="475.0">
+         <columns>
+            <TableColumn fx:id="upcomingEventsColumn" prefWidth="133.59996795654297" text="Up Comming Events" />
+            <TableColumn fx:id="recentActivitiesColumn" minWidth="0.0" prefWidth="181.60003662109375" text="Recent Activities" />
+            <TableColumn fx:id="participationInSportColumn" minWidth="0.0" prefWidth="156.800048828125" text="Participation in sport" />
+         </columns>
+      </TableView>
+      <Button fx:id="addActivityButton" layoutX="23.0" layoutY="51.0" mnemonicParsing="false" text="Add Activity (+)">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="submitButton" layoutX="613.0" layoutY="316.0" mnemonicParsing="false" text="Submit">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
